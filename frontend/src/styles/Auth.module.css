@@ -1,0 +1,106 @@
+/* Auth.module.css */
+
+.mainContainer {
+    height: 100vh;
+    background-color: #f1f5f9;
+}
+
+/* Left Panel - Gradient & Glassmorphism */
+.leftPanel {
+    background: linear-gradient(135deg, #4f46e5 0%, #7e22ce 50%, #db2777 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    color: white;
+    position: relative;
+}
+
+.glassCard {
+    max-width: 550px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.brandIcon {
+    font-size: 90px !important;
+    color: #fff;
+    margin-bottom: 16px;
+    filter: drop-shadow(0px 4px 8px rgba(0,0,0,0.3));
+}
+
+.brandName {
+    font-weight: 800 !important;
+    margin-bottom: 16px !important;
+    letter-spacing: -1px !important;
+}
+
+/* Right Panel - Form */
+.rightPanel {
+    display: flex;
+    align-items: center;
+    background-color: white !important;
+}
+
+.formWrapper {
+    margin: 64px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0 32px;
+}
+
+.formAvatar {
+    margin: 8px;
+    background-color: #6366f1 !important;
+    width: 56px !important;
+    height: 56px !important;
+    box-shadow: 0 8px 16px rgba(99, 102, 241, 0.4);
+}
+
+.toggleContainer {
+    display: flex;
+    width: 100%;
+    background-color: #f1f5f9;
+    padding: 6px;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+.submitBtn {
+    margin-top: 40px !important;
+    margin-bottom: 16px !important;
+    padding: 14px !important;
+    border-radius: 12px !important;
+    background: linear-gradient(to right, #6366f1, #a855f7) !important;
+    box-shadow: 0 10px 20px -10px rgba(99, 102, 241, 0.8) !important;
+    transition: all 0.2s ease-in-out !important;
+}
+
+.submitBtn:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 25px -10px rgba(99, 102, 241, 0.9) !important;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 900px) {
+    .leftPanel {
+        display: none !important; /* Mobile pe gradient panel hat jayega as per image */
+    }
+    
+    .rightPanel {
+        border-radius: 0 !important;
+    }
+
+    .formWrapper {
+        margin: 40px auto;
+        padding: 0 20px;
+    }
+}

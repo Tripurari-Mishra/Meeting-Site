@@ -1,0 +1,102 @@
+.homeWrapper {
+    min-height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+/* --- NAVBAR --- */
+.navbar {
+    border-bottom: 1px solid #e0e0e0 !important;
+    padding: 0 16px !important;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 !important;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.navActions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+/* --- HERO SECTION --- */
+.heroContainer {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.heroTitle {
+    font-weight: 400 !important;
+    color: #202124;
+    margin-bottom: 16px !important;
+    line-height: 1.2 !important;
+}
+
+.heroSubtitle {
+    font-weight: 400 !important;
+    color: #5f6368;
+    margin-bottom: 32px !important;
+    line-height: 1.5 !important;
+}
+
+.imageBox {
+    display: flex;
+    justify-content: center;
+}
+
+.heroImage {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* --- MOBILE RESPONSIVENESS --- */
+@media (max-width: 600px) {
+    .navActions {
+        gap: 5px;
+    }
+    
+    /* Mobile pe text buttons chote kar diye */
+    .navActions button {
+        font-size: 12px !important;
+        padding: 4px 8px !important;
+    }
+
+    .heroTitle {
+        font-size: 2rem !important;
+        text-align: center;
+    }
+
+    .heroSubtitle {
+        text-align: center;
+        font-size: 1rem !important;
+    }
+
+    /* Input aur Join button mobile pe ek ke niche ek */
+    .inputStack {
+        flex-direction: column !important;
+        width: 100%;
+    }
+
+    .imageBox {
+        margin-top: 20px;
+    }
+    
+    .heroImage {
+        max-width: 300px;
+    }
+}
