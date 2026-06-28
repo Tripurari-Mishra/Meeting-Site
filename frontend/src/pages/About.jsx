@@ -73,7 +73,7 @@ export const AboutPage = () => {
             letterSpacing: "-1px",
           }}
         >
-          Engineered for BUEST
+          Engineered for Meeting-Site
         </Typography>
         <Typography
           variant="h6"

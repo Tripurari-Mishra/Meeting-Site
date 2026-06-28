@@ -68,7 +68,7 @@
 //                 letterSpacing: "-0.5px",
 //               }}
 //             >
-//               BUEST Call
+//               Meeting-Site Call
 //             </Typography>
 //           </Box>
 
@@ -246,7 +246,7 @@
 //                       fontWeight: 600,
 //                     }}
 //                   >
-//                     BUEST Video Call
+//                     Meeting-Site Video Call
 //                   </span>
 //                 </Typography>
 //               </Box>
@@ -359,7 +359,7 @@ function HomeComponent() {
           <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
             <VideoCallIcon sx={{ color: "#1a73e8", fontSize: { xs: 28, md: 32 } }} />
             <Typography variant="h6" sx={{ color: "#5f6368", fontWeight: 500, fontSize: { xs: "1rem", md: "1.25rem" }, letterSpacing: "-0.5px" }}>
-              BUEST Call
+              Meeting-Site Call
             </Typography>
           </Box>
 

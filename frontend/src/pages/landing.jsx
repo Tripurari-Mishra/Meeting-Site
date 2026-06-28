@@ -35,7 +35,7 @@ export default function LandingPage() {
                 sx={{ color: "#FF9839", fontSize: { xs: 40, md: 55 } }}
               />
               <Typography variant="h5" component="div">
-                <h1 className={styles.brandName}>BUEST</h1>
+                <h1 className={styles.brandName}>Meeting-Site</h1>
               </Typography>
             </Box>
 
@@ -106,7 +106,7 @@ export default function LandingPage() {
             <Box
               component="img"
               src="/mobile.png"
-              alt="Buest App Mobile View"
+              alt="Meeting-Site App Mobile View"
               className={styles.heroImage}
             />
           </Grid>

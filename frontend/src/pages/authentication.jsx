@@ -144,7 +144,7 @@ export default function Authentication() {
               variant="h3"
               sx={{ fontWeight: 800, mb: 2, letterSpacing: "-1px" }}
             >
-              <span style={{color: "#080cf1"}}>BUEST</span> Video Call
+              <span style={{color: "#080cf1"}}>Meeting-Site</span> Video Call
             </Typography>
             <Typography
               variant="h6"
